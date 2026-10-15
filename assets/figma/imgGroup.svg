@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="174" height="140" viewBox="0 0 174 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<path id="Vector" d="M144 0H30C13.4315 0 6.26234e-06 13.4315 6.26234e-06 30V110C6.26234e-06 126.569 13.4315 140 30 140H144C160.569 140 174 126.569 174 110V30C174 13.4315 160.569 0 144 0Z" fill="#3A58B0"/>
+<g id="Vector_2">
+<path d="M37 62H75ZM56 43V81Z" fill="black"/>
+<path d="M37 62H75M56 43V81" stroke="white" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path id="Vector_3" d="M119 67C124.523 67 129 62.5228 129 57C129 51.4772 124.523 47 119 47C113.477 47 109 51.4772 109 57C109 62.5228 113.477 67 119 67Z" fill="#FFBC12"/>
+<path id="Vector_4" d="M139 93C144.523 93 149 88.5228 149 83C149 77.4772 144.523 73 139 73C133.477 73 129 77.4772 129 83C129 88.5228 133.477 93 139 93Z" fill="#94DCC6"/>
+</g>
+</svg>
