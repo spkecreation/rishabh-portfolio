@@ -1,7 +1,7 @@
 (() => {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   // Reveal small pieces when they enter view, including newly filtered cards.
-  const targets = document.querySelectorAll('.about>*,.approach li,.work>.eyebrow,.work>h2,.work>.muted,.projects article,.project-note,.play,.archive>.eyebrow,.archive-heading,.filters,.gallery-item,.contact,footer,.detail>.eyebrow,.detail>h1,.detail>.detail-lead,.detail>video,.detail-grid>h2,.detail-grid>div>p,.detail-grid li,.detail-grid .text-link');
+  const targets = document.querySelectorAll('.about>*,.approach li,.tools>.eyebrow,.tools>h2,.tools>.muted,.tool-item,.work>.eyebrow,.work>h2,.work>.muted,.projects article,.project-note,.play,.archive>.eyebrow,.archive-heading,.filters,.gallery-item,.contact,footer,.detail>.eyebrow,.detail>h1,.detail>.detail-lead,.detail>video,.detail-grid>h2,.detail-grid>div>p,.detail-grid li,.detail-grid .text-link');
   const reveal = 'IntersectionObserver' in window ? new IntersectionObserver(items => items.forEach(({target,isIntersecting}) => {
     if (isIntersecting) { target.classList.add('is-visible'); reveal.unobserve(target); }
   }), {threshold: .08}) : null;
